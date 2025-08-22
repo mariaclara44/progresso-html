@@ -16,8 +16,8 @@ section {
 }
 
 h2 {
-    margin-bottom: 10px;
-    font-size: 4%;
+    margin-bottom: 20px;
+    font-size: 50;
 }
 
 .flex-container {
@@ -48,7 +48,14 @@ h2 {
     justify-content: center;
 }
 
-.flex-end {
-    justify-content: center; 
+.justify-end {
+    justify-content: flex-end; 
 }
 
+.justify-between {
+    justify-content: space-between;
+}
+
+.flex-column {
+    flex-direction: column;
+}
